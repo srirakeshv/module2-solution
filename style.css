@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 20px;
+    text-align: center;
+}
+main{
+    margin-top: 50px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+main div{
+    flex: 1 1 310px;
+    background-color: rgb(128, 128, 128);
+    padding: 0 0 15px 15px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+div h3{
+    width: 150px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-top: 0;
+    border-right: 0;
+    padding: 10px;
+    text-align: center;
+}
+div p{
+    padding: 0 15px 0 0;
+}
+main div:nth-child(1) h3{
+    background-color: pink;
+}
+main div:nth-child(2) h3{
+    background-color: rgb(221, 71, 71);
+}
+main div:nth-child(3) h3{
+    background-color: rgb(202, 146, 83);
+}
